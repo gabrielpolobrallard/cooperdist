@@ -71,12 +71,14 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 997;
   transition: all 0.5s;
   padding: 22px 0;
+  background-color: #2383c4;
+
 }
 
 #header.header-scrolled {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   padding: 15px 0;
-  background: #fff;
+  background:#2383c4;
 }
 
 #header .logo h1 {
@@ -127,15 +129,17 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #555555;
+  /* color: #555555; */
   padding: 8px 0 12px 25px;
   transition: 0.3s;
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
+  color: white;
+
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #3498db;
+  color: darkgray;
   text-decoration: none;
 }
 
