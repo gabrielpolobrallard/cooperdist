@@ -70,15 +70,57 @@ h1, h2, h3, h4, h5, h6 {
 #header {
   z-index: 997;
   transition: all 0.5s;
-  padding: 22px 0;
-  background-color: #2383c4;
-
+  padding:  0px 0;
+  background-color: rgb(29,179,224);;
+  -webkit-box-shadow: 4px 20px 19px 6px rgba(0,0,0,0.72);
+  -moz-box-shadow: 4px 20px 19px 6px rgba(0,0,0,0.72);
+  box-shadow: 4px 20px 19px 6px rgba(0,0,0,0.72);
 }
+#header #horario-atencion {
+  padding: 0px 5px;
+  width: 100%;
+  color: white;
+  font-size: 10px;
+  text-align: end;
+  background-color: black;
+}
+
+#header #horario-atencion #social-media {
+  margin-left:20px;
+  margin-top: 0px;
+}
+
+
+#header #horario-atencion #social-media i {
+  margin:0px 5px ;
+}
+
+
+#links-info {
+  padding: 0px 5px;
+  width: 100%;
+  color: white;
+  font-size: 30px;
+  text-align: justify;
+  background-color: black;
+}
+#links-info > ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+
+#links-info > ul  > li > span {
+  font-weight: bolder;
+  font-size: 45 px;
+  
+}
+
 
 #header.header-scrolled {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  padding: 15px 0;
-  background:#2383c4;
+  padding: 0px 0;
+  background:rgb(29,179,224);
 }
 
 #header .logo h1 {
@@ -98,7 +140,7 @@ h1, h2, h3, h4, h5, h6 {
 #header .logo img {
   padding: 0;
   margin: 0px 0px 0px 10px;
-  max-height: 40px;
+  max-height: 60px;
 }
 
 @media (max-width: 768px) {
@@ -139,12 +181,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: darkgray;
+  color: white;
+  font-weight: bold;
   text-decoration: none;
 }
 
 .nav-menu .get-started a {
-  background: #3498db;
+  background:rgb(29,179,224);;
   color: #fff;
   border-radius: 50px;
   margin: 0 0 0 30px;
@@ -285,7 +328,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #3498db;
+  color:rgb(29,179,224);;
   text-decoration: none;
 }
 
@@ -295,7 +338,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav .get-started a {
-  background: #3498db;
+  background: rgb(29,179,224);;
   color: #fff;
   border-radius: 50px;
   margin: 0 15px;
@@ -304,7 +347,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav .get-started a:hover {
-  background: #57aae1;
+  background:rgb(29,179,224);;
   color: #fff;
 }
 
@@ -392,11 +435,11 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   transition: 0.5s;
   color: #3498db;
-  border: 2px solid #3498db;
+  border: 2px solid rgb(29,179,224);;
 }
 
 #hero .btn-get-started:hover {
-  background: #3498db;
+  background: rgb(29,179,224);;
   color: #fff;
 }
 
@@ -497,7 +540,7 @@ section {
   content: '';
   width: 50px;
   height: 2px;
-  background: #3498db;
+  background: rgb(29,179,224);;
   display: inline-block;
 }
 
@@ -582,7 +625,7 @@ section {
   left: 0;
   top: 2px;
   font-size: 20px;
-  color: #3498db;
+  color: rgb(29,179,224);;
   line-height: 1;
 }
 
@@ -600,15 +643,15 @@ section {
   border-radius: 50px;
   transition: 0.3s;
   line-height: 1;
-  color: #3498db;
+  color: rgb(29,179,224);;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   margin-top: 6px;
-  border: 2px solid #3498db;
+  border: 2px solid rgb(29,179,224);;
 }
 
 .about .content .btn-learn-more:hover {
-  background: #3498db;
+  background: rgb(29,179,224);;
   color: #fff;
   text-decoration: none;
 }
@@ -642,7 +685,7 @@ section {
 .counts .content .count-box i {
   display: block;
   font-size: 36px;
-  color: #3498db;
+  color: rgb(29,179,224);;
   float: left;
 }
 
@@ -720,7 +763,7 @@ section {
 }
 
 .services .icon-box:hover::before {
-  background: #3498db;
+  background: rgb(29,179,224);;
   right: 0;
   top: 0;
   width: 100%;
@@ -736,7 +779,7 @@ section {
   border-radius: 50%;
   width: 60px;
   height: 60px;
-  background: #3498db;
+  background: rgb(29,179,224);;
   transition: all 0.3s ease-in-out;
 }
 
@@ -771,7 +814,7 @@ section {
 }
 
 .services .icon-box:hover .icon i {
-  color: #3498db;
+  color:rgb(29,179,224);;
 }
 
 /*--------------------------------------------------------------
@@ -828,7 +871,7 @@ section {
 }
 
 .more-services .card:hover .card-body {
-  background: #3498db;
+  background: rgb(29,179,224);
 }
 
 .more-services .card:hover .read-more a, .more-services .card:hover .card-title, .more-services .card:hover .card-title a, .more-services .card:hover .card-text {
@@ -949,7 +992,7 @@ section {
 }
 
 .testimonials .owl-dot.active {
-  background-color: #3498db !important;
+  background-color: rgb(29,179,224) !important;
 }
 
 @media (max-width: 767px) {
@@ -996,7 +1039,7 @@ section {
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
   color: #fff;
-  background: #3498db;
+  background: rgb(29,179,224);
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -1073,7 +1116,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #3498db;
+  color: rgb(29,179,224);
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -1126,7 +1169,7 @@ section {
 }
 
 .team .member .social a:hover {
-  color: #3498db;
+  color: rgb(29,179,224);
 }
 
 .team .member .social i {
@@ -1238,8 +1281,8 @@ section {
   display: inline-block;
   padding: 10px 40px 12px 40px;
   border-radius: 50px;
-  border: 2px solid #3498db;
-  color: #3498db;
+  border: 2px solid rgb(29,179,224);
+  color:rgb(29,179,224);
   font-size: 14px;
   font-weight: 400;
   font-family: "Raleway", sans-serif;
@@ -1248,22 +1291,22 @@ section {
 }
 
 .pricing .box .btn-buy:hover {
-  background: #3498db;
+  background: rgb(29,179,224);
   color: #fff;
 }
 
 .pricing .recommended {
-  border-color: #3498db;
+  border-color: rgb(29,179,224);
 }
 
 .pricing .recommended .btn-buy {
-  background: #3498db;
+  background: rgb(29,179,224);
   color: #fff;
 }
 
 .pricing .recommended .btn-buy:hover {
-  background: #2383c4;
-  border-color: #2383c4;
+  background: rgb(29,179,224);
+  border-color:rgb(29,179,224);
 }
 
 /*--------------------------------------------------------------
@@ -1324,7 +1367,7 @@ section {
   font-size: 18px;
   display: inline-block;
   background: #fff;
-  color: #3498db;
+  color: rgb(29,179,224);
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1333,11 +1376,11 @@ section {
   width: 36px;
   height: 36px;
   transition: 0.3s;
-  border: 1px solid #3498db;
+  border: 1px solid rgb(29,179,224);
 }
 
 .contact .social-links a:hover {
-  background: #3498db;
+  background: rgb(29,179,224);
   color: #fff;
 }
 
@@ -1347,7 +1390,7 @@ section {
 
 .contact .info i {
   font-size: 32px;
-  color: #3498db;
+  color: rgb(29,179,224);
   float: left;
   line-height: 1;
 }
@@ -1424,7 +1467,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #2383c4;
+  background: rgb(29,179,224);
 }
 
 @-webkit-keyframes animate-loading {
@@ -1533,7 +1576,7 @@ section {
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot.active {
-  background-color: #3498db !important;
+  background-color: rgb(29,179,224) !important;
 }
 
 .portfolio-details .portfolio-info {
@@ -1594,5 +1637,5 @@ section {
 }
 
 #footer .footer-links a:hover {
-  color: #3498db;
+  color: rgb(29,179,224);
 }
