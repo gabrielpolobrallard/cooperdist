@@ -1650,14 +1650,43 @@ section {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-#footer {
+/* #footer {
   background: #fff;
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
   padding: 30px 0;
   color: #222222;
   font-size: 14px;
+} */
+
+
+#footer {
+  background: black;
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  padding: 30px 0;
+  color: white;
+  font-size: 14px;
 }
 
+#footer > div > div > div.container > div > div:nth-child(1) > img
+{
+  width: 160px;
+}
+#footer > div > div > div.container > div > div:nth-child(2) > img
+{
+  width: 160px;
+}
+
+
+#footer > div > div > div > div > div > ul {
+  list-style-type: none;
+  font-size: 10px;
+}
+
+
+#footer > div > div > div > div > div > ul > li#title {
+  font-weight: bolder;
+  font-size: 12px;
+}
 #footer .credits {
   font-size: 13px;
   padding-top: 5px;
@@ -1665,7 +1694,7 @@ section {
 }
 
 #footer .footer-links a {
-  color: #222222;
+  color: grey;
   padding-left: 15px;
 }
 
