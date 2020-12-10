@@ -132,6 +132,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: justify;
   background-color: white;
   height: 400px;
+  margin-bottom: 40px;
 }
 #links-iconos > ul {
   margin: 0;
@@ -158,14 +159,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 768px) {
-  /* #links-iconos {
-    display:block
-  }
-  #links-iconos > ul
-  {
-    display: grid;
-  } */
 
+  #link-iconos {
+    margin-bottom: 40px;
+  }
 
 }
 
@@ -1720,4 +1717,27 @@ section {
 
 #footer .footer-links a:hover {
   color: rgb(29,179,224);
+}
+
+#footer .container .row .col {
+  margin-bottom: 25px;
+}
+
+@media (max-width: 768px) {
+  #footer .container {
+    justify-content: center;
+    display: flex;
+  }
+  #footer .container .row {
+    flex-direction: column;
+  }
+
+  #footer .container .row .col {
+    min-width: 180px;
+    margin-bottom: 15px;
+  }
+  #footer > div > div > div > div > div > ul {
+    padding:0;
+    margin: 20px 0px;
+  }
 }
